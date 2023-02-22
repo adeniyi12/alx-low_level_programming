@@ -15,10 +15,18 @@ int main(void)
 	for (i = 2; i < 50; i++)
 	{
 		fib = fib1 + fib2;
-		printf("%ld, ", fib);
+		printf("%ld", fib);
 		fib1 = fib2;
 		fib2 = fib;
+
+		if (i == 49)
+		{
+			printf("\n");
+		}
+		else
+		{
+			printf(",");
+		}
 	}
-	printf("\n");
 	return (0);
 }
