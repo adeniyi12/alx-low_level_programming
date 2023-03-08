@@ -3,10 +3,10 @@
 /**
  * factorial - factorial of a given number
  * @n: number
- * Return - integer of the result
+ * Return: integer of the result
 */
 
-factorial(int n)
+int factorial(int n)
 {
 	if (n < 0)
 	{
